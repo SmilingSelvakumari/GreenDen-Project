@@ -1,0 +1,90 @@
+<div>
+    <div class="header">
+        Header
+    </div>
+    <div class="middle">
+        <div class="one">
+            <div class="Aside">Aside</div>
+        </div>
+        <div class="two">
+            <div class="top-article">Article</div>
+            <div class="bottom-images">
+                <div class="two__s1">Image
+                </div>
+                <div class="two__s2">Image
+                </div>
+                <div class="two__s3">Image
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        Footer
+    </div>
+
+
+
+
+
+    <style>
+        .header {
+            background-color: darkcyan;
+            height: 100px;
+        }
+
+        .footer {
+            background-color: darkcyan;
+            height: 100px;
+            margin: 5px;
+        }
+
+
+        .middle {
+            background-color: blue;
+            padding: 5px;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+        }
+
+        .one {
+            background-color: rgb(186, 119, 31);
+            height: 300;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .two {
+            background-color: yellow;
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 5px;
+            justify-content: space-around;
+            text-align: center;
+            align-items: last baseline;
+
+        }
+
+        .two__s1,
+        .two__s2,
+        .two__s3 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+        }
+
+
+
+        .bottom-images {
+           
+        
+            width: 100%; /* Make sure it covers the whole width */
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+            justify-content: space-around;
+            align-items: center;
+            padding: 5px;
+        }
+    </style>
+</div>
